@@ -140,7 +140,7 @@ const Portrait = ({
                 <img
                   src={src}
                   alt={alt}
-                  className="h-full w-full object-cover object-center"
+                  className="h-full w-full object-cover object-[70%_50%]"
                 />
 
                 {/* Scanner line effect */}

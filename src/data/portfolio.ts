@@ -1,5 +1,7 @@
 import portraitImage from "@/assets/abdallah.png";
 
+const baseUrl = import.meta.env.BASE_URL;
+
 // ============================================
 // PORTFOLIO DATA - Edit this file to customize your portfolio
 // ============================================
@@ -84,17 +86,17 @@ export const portfolioData = {
       image: "",
       slug: "raqam",
       images: [
-        "/images/raqam/iPhone 16 Pro Max.png",
-        "/images/raqam/iPhone 16 Pro Max (1).png",
-        "/images/raqam/iPhone 16 Pro Max (2).png",
-        "/images/raqam/iPhone 16 Pro Max (3).png",
-        "/images/raqam/iPhone 16 Pro Max (4).png",
-        "/images/raqam/iPhone 16 Pro Max (5).png",
-        "/images/raqam/iPhone 16 Pro Max (6).png",
-        "/images/raqam/iPhone 16 Pro Max (7).png",
-        "/images/raqam/iPhone 16 Pro Max (8).png",
-        "/images/raqam/iPhone 16 Pro Max (9).png",
-        "/images/raqam/iPhone 16 Pro Max (10).png",
+        `${baseUrl}images/raqam/iPhone 16 Pro Max.png`,
+        `${baseUrl}images/raqam/iPhone 16 Pro Max (1).png`,
+        `${baseUrl}images/raqam/iPhone 16 Pro Max (2).png`,
+        `${baseUrl}images/raqam/iPhone 16 Pro Max (3).png`,
+        `${baseUrl}images/raqam/iPhone 16 Pro Max (4).png`,
+        `${baseUrl}images/raqam/iPhone 16 Pro Max (5).png`,
+        `${baseUrl}images/raqam/iPhone 16 Pro Max (6).png`,
+        `${baseUrl}images/raqam/iPhone 16 Pro Max (7).png`,
+        `${baseUrl}images/raqam/iPhone 16 Pro Max (8).png`,
+        `${baseUrl}images/raqam/iPhone 16 Pro Max (9).png`,
+        `${baseUrl}images/raqam/iPhone 16 Pro Max (10).png`,
       ],
       tags: ["React", "TypeScript", "Mobile"],
       github: "https://github.com/kayyali05/Raqam",

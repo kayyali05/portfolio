@@ -79,7 +79,7 @@ const HeroSection = () => {
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="order-first flex justify-center lg:order-first lg:justify-start"
+            className="order-first flex justify-center lg:order-first lg:justify-center lg:pl-8"
           >
             <Portrait
               src={portfolioData.personal.portrait}
